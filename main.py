@@ -7,7 +7,7 @@ def run_pipeline():
         load.save_to_csv(cleaned_data,'crypto_data.csv')
         report_data=analyze.analyze_data('crypto_data.csv')
         report.create_report(report_data)
-
+        print('Report sucessfully created! Check for report.txt inside the project directory.')
  
 if __name__=='__main__':
     run_pipeline()
