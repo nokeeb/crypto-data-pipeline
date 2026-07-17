@@ -32,6 +32,11 @@ Run the pipeline:
 ```bash
 python main.py
 ```
+If the command doesn't work (python not recognized)
+Try:
+```bash
+py main.py
+```
 
 
 
