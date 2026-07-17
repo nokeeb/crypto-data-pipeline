@@ -13,6 +13,11 @@ This project fetches cryptocurrency data from CoinGecko API, processes it, and g
 ## Tech stack
 -Python
 
+## Requirements
+
+- Python 3.10+
+- No external dependencies — uses only the Python standard library
+
 ## How to Run
 
 Clone the repository:
